@@ -2,7 +2,7 @@
   Script principal  Viajes Chile
   Incluye smooth scroll con jQuery, tooltips Bootstrap y eventos simples.
 */
-
+// Inicialización de JavaScript */
 $(document).ready(function () {
   // Smooth scroll para links internos del navbar.
   $("a.nav-link, .navbar-brand").on("click", function (event) {
