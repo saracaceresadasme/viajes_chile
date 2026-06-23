@@ -1,0 +1,97 @@
+/* 
+  Prueba Viajes Chile
+  Bootstrap 5.3.3
+  Font Awesome 6.5.2
+  Google Font: Raleway
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.logo {
+  width: 32px;
+  margin-right: 8px;
+}
+
+.carousel-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+hr {
+  border-color: #1fc8db;
+  opacity: 0.4;
+}
+
+.icon-box {
+  background-color: #1fc8db;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.icon-box i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: #1fc8db;
+  color: #fff;
+  border: none;
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #1fc8db;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.7rem;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 60vh;
+  }
+
+  footer h3 {
+    font-size: 1.2rem;
+  }
+}
